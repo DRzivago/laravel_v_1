@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('/home', function () {
     echo 'tam smo doma';
 });
+
+
+Route::get('/contact', function () {
+    echo 'moj e-mail';
+});
